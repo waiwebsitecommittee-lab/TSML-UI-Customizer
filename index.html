@@ -5,11 +5,12 @@
       <title>Williamsburg Area Intergroup Meeting Finder</title>
     </head>
     <body>
-  <script>
+
+<script>
   window.config = {
     title: 'Historict Williamsburg District 38 Meeting Finder',
-// apiURL: 'https://sheets.code4recovery.org/storage/1LzVrSE-t-iYMnSmiZtg8449rctjJ8Xn9l-nz9_t4H6k.json',
-    apiURL: 'data/D38-Meetings.json',
+    apiURL: 'https://sheets.code4recovery.org/storage/1LzVrSE-t-iYMnSmiZtg8449rctjJ8Xn9l-nz9_t4H6k.json',
+//    apiURL: 'data/D38-Meetings.json',
     timeZone: 'America/New_York',
     region: 'Williamsburg Virginia',
     theme: 'default',
@@ -22,7 +23,10 @@
   };
 </script>
 
-<div id="tsml-ui"></div>
+<div 
+  id="tsml-ui"
+  data-src="https://sheets.code4recovery.org/storage/1LzVrSE-t-iYMnSmiZtg8449rctjJ8Xn9l-nz9_t4H6k.json"
+></div>
 
 <script src="https://tsml-ui.code4recovery.org/app.js"></script>
     </body>
