@@ -6,24 +6,14 @@
     </head>
     <body>
 
-
-<script> // this code block was intended to change the columns of data (fields) shown on the display.  It does not work.
-  window.config = {
-    title: 'Historict Williamsburg District 38 Meeting Finder',
-    apiURL: 'https://sheets.code4recovery.org/storage/1LzVrSE-t-iYMnSmiZtg8449rctjJ8Xn9l-nz9_t4H6k.json',
-//    apiURL: 'data/D38-Meetings.json',
-    timeZone: 'America/New_York',
-    region: 'Williamsburg Virginia',
-    theme: 'default',
-    meetingListFields: ['time', 'name', 'location', 'types']
-  };
-</script>
-
-
 <script> //this script should change what meeting codes are displayed in the list - THIS WORKS
       var tsml_react_config = {
         'flags': ['M', 'W', 'O', 'C', 'X', 'LGBTQ'],
       };
+  tsml_react_config.strings = {
+          en:{title: "District 38 Meetings",},
+  };
+  //    meetingListFields: ['time', 'name', 'location', 'types']
     </script>
       
 <div 
