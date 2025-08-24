@@ -7,7 +7,8 @@
     </head>
     <a href="https://aawilliamsburg.org" target="_blank" style="font-size: 25px;">* Return to AAWILLIAMSBURG.ORG * </a>
   <body>
-      
+
+  <!--
   <script>
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
@@ -24,7 +25,8 @@
       document.getElementById("location").textContent = "Geolocation not supported"
     }
   </script>
-      
+  -->
+    
 <script> //this script should change what meeting codes are displayed in the list - THIS WORKS
       var tsml_react_config = {
          'flags': ['M', 'W', 'O', 'C', 'LGBTQ', 'X', 'AL-AN', '11', 'B', 'BE', 'D', 'LIT', 'SP', 'ST'],
@@ -33,7 +35,8 @@
       
 <div 
   id="tsml-ui"
-//  data-src="https://sheets.code4recovery.org/storage/1LzVrSE-t-iYMnSmiZtg8449rctjJ8Xn9l-nz9_t4H6k.json"
+  data-src="https://sheets.code4recovery.org/storage/1LzVrSE-t-iYMnSmiZtg8449rctjJ8Xn9l-nz9_t4H6k.json"
+  data-timezone="New_York"
 ></div>
 
 <script src="https://tsml-ui.code4recovery.org/app.js"></script>
